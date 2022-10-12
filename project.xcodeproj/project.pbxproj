@@ -15,6 +15,7 @@
 		3D27DCE928F5B29600C9A6B0 /* projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27DCE828F5B29600C9A6B0 /* projectTests.swift */; };
 		3D27DCF328F5B29600C9A6B0 /* projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27DCF228F5B29600C9A6B0 /* projectUITests.swift */; };
 		3D27DCF528F5B29600C9A6B0 /* projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27DCF428F5B29600C9A6B0 /* projectUITestsLaunchTests.swift */; };
+		3DBEA0CB28F705B300995CE6 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEA0CA28F705B300995CE6 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D27DCEE28F5B29600C9A6B0 /* projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D27DCF228F5B29600C9A6B0 /* projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectUITests.swift; sourceTree = "<group>"; };
 		3D27DCF428F5B29600C9A6B0 /* projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DBEA0CA28F705B300995CE6 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3D27DCD028F5B29500C9A6B0 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				3DBEA0C928F7055500995CE6 /* Model */,
 				3D27DCD128F5B29500C9A6B0 /* AppDelegate.swift */,
 				3D27DCD328F5B29500C9A6B0 /* SceneDelegate.swift */,
 				3D27DCD528F5B29500C9A6B0 /* ViewController.swift */,
@@ -122,6 +125,14 @@
 				3D27DCF428F5B29600C9A6B0 /* projectUITestsLaunchTests.swift */,
 			);
 			path = projectUITests;
+			sourceTree = "<group>";
+		};
+		3DBEA0C928F7055500995CE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DBEA0CA28F705B300995CE6 /* model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				3D27DCD628F5B29500C9A6B0 /* ViewController.swift in Sources */,
 				3D27DCD228F5B29500C9A6B0 /* AppDelegate.swift in Sources */,
 				3D27DCD428F5B29500C9A6B0 /* SceneDelegate.swift in Sources */,
+				3DBEA0CB28F705B300995CE6 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
