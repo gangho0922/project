@@ -9,58 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var mainLabel = UILabel()
-    var emailField = UITextField()
-    var passwordField = UITextField()
-    var loginButton = UIButton()
-    var backgroundImage = UIImageView()
-    var profileImage = UIImageView()
-    var profileImagePicker = UIImagePickerController()
-    var backgroundImagePicker = UIImagePickerController()
-
-    // MARK: LifeCycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
-        self.view.addSubview(mainLabel)
-        self.view.addSubview(emailField)
-        self.view.addSubview(passwordField)
-        self.view.addSubview(loginButton)
-        self.view.addSubview(backgroundImage)
-        self.view.addSubview(profileImage)
-
-        self.mainLableLayout()
-        self.emailFieldLayout()
-        self.passwordFieldLayout()
-        self.loginButtonLayout()
-        self.backgroundImageLayout()
-        self.profileImageLayout()
-        self.tapImage(imageView: backgroundImage)
-        self.tapImage(imageView: profileImage)
-
-        //self.loginButton.addTarget(self, action: #selector(self.login), for: .touchUpInside)
-
+        view.backgroundColor = .white
         self.title = "로그인"
-    }
-
-    func mainLableLayout(){
-
-    }
-    func emailFieldLayout(){
-
-    }
-    func passwordFieldLayout(){
-
-    }
-    func loginButtonLayout(){
-
-    }
-    func backgroundImageLayout(){
-    }
-    func profileImageLayout(){
-    }
-    func tapImage(imageView: UIImageView){
+        let textView = UITextView()
+        textView.backgroundColor = .white
+        textView.layer.borderWidth = 1.0
+        textView.font = size 
+        textView.layer.borderColor = UIColor.black.cgColor
+        view.addSubview(textView)
+        textView.translatesAutoresizingMaskIntoConstraints = false
+        textView.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        textView.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        
+        textView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        textView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        textView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 50).isActive = true;
+        textView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor, constant: -50).isActive = true;
     }
 }
 
