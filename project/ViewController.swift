@@ -34,8 +34,8 @@ class ViewController: UIViewController {
             text1View.layer.borderColor = UIColor.black.cgColor
             view.addSubview(text1View)
             text1View.translatesAutoresizingMaskIntoConstraints = false
-            text1View.widthAnchor.constraint(equalToConstant: 50).isActive = true
-            text1View.heightAnchor.constraint(equalToConstant: 50).isActive = true;
+            text1View.widthAnchor.constraint(equalToConstant: 70).isActive = true
+            text1View.heightAnchor.constraint(equalToConstant: 70).isActive = true;
             text1View.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
             text1View.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
             text1View.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 60).isActive = true;
